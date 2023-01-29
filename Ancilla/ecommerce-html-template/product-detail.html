@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ancilla</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="eCommerce HTML Template Free Download" name="keywords">
+    <meta content="eCommerce HTML Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top bar Start -->
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <i class="fa fa-envelope"></i>
+                    support@email.com
+                </div>
+                <div class="col-sm-6">
+                    <i class="fa fa-phone-alt"></i>
+                    +012-345-6789
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="product-list.html" class="nav-item nav-link">Products</a>
+                        <a href="product-detail.html" class="nav-item nav-link active">Product Detail</a>
+                        <a href="cart.html" class="nav-item nav-link">Cart</a>
+                        <a href="checkout.html" class="nav-item nav-link">Checkout</a>
+                        <a href="my-account.html" class="nav-item nav-link">My Account</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
+                            <div class="dropdown-menu">
+                                <a href="wishlist.html" class="dropdown-item">Wishlist</a>
+                                <a href="login.html" class="dropdown-item">Login & Register</a>
+                                <a href="contact.html" class="dropdown-item">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Login</a>
+                                <a href="#" class="dropdown-item">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <h1>Ancilla</h1>
+                        <!-- <a href="index.html">
+                                <img src="img/logo.png" alt="Logo">
+                            </a> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user">
+                        <a href="wishlist.html" class="btn wishlist">
+                            <i class="fa fa-heart"></i>
+                            <span>(0)</span>
+                        </a>
+                        <a href="cart.html" class="btn cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>(0)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Products</a></li>
+                <li class="breadcrumb-item active">Product Detail</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Product Detail Start -->
+    <div class="product-detail">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="product-detail-top">
+                        <div class="row align-items-center">
+                            <div class="col-md-5">
+                                <div class="product-slider-single normal-slider">
+                                    <img src="img/product-1.jpg" alt="Product Image">
+                                    <img src="img/product-3.jpg" alt="Product Image">
+                                    <img src="img/product-5.jpg" alt="Product Image">
+                                    <img src="img/product-7.jpg" alt="Product Image">
+                                    <img src="img/product-9.jpg" alt="Product Image">
+                                    <img src="img/product-10.jpg" alt="Product Image">
+                                </div>
+                                <div class="product-slider-single-nav normal-slider">
+                                    <div class="slider-nav-img"><img src="img/product-1.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/product-3.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/product-5.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/product-7.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/product-9.jpg" alt="Product Image"></div>
+                                    <div class="slider-nav-img"><img src="img/product-10.jpg" alt="Product Image"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="product-content">
+                                    <div class="title">
+                                        <h2>Product name</h2>
+                                    </div>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <div class="price">
+                                        <h4>Price:</h4>
+                                        <p>Rs99 <span>Rs149</span></p>
+                                    </div>
+                                    <div class="quantity">
+                                        <h4>Quantity:</h4>
+                                        <div class="qty">
+                                            <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                            <input type="text" value="1">
+                                            <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="p-size">
+                                        <h4>Size:</h4>
+                                        <div class="btn-group btn-group-sm">
+                                            <button type="button" class="btn">S</button>
+                                            <button type="button" class="btn">M</button>
+                                            <button type="button" class="btn">L</button>
+                                            <button type="button" class="btn">XL</button>
+                                        </div>
+                                    </div>
+                                    <div class="p-color">
+                                        <h4>Color:</h4>
+                                        <div class="btn-group btn-group-sm">
+                                            <button type="button" class="btn">White</button>
+                                            <button type="button" class="btn">Black</button>
+                                            <button type="button" class="btn">Blue</button>
+                                        </div>
+                                    </div>
+                                    <div class="action">
+                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i>Add to Cart</a>
+                                        <a class="btn" href="#"><i class="fa fa-shopping-bag"></i>Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row product-detail-bottom">
+                        <div class="col-lg-12">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#description">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#specification">Specification</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#reviews">Reviews (1)</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="description" class="container tab-pane active">
+                                    <h4>Product description</h4>
+                                    <p>
+                                        Style Code
+                                        vastravali orange s
+                                        Occasion
+                                        Party & Festive, Wedding, Casual
+                                        Neck
+                                        Round Neck
+                                        Sleeve
+                                        Half Sleeve
+                                        Fabric Care
+                                        do not dry & clin
+                                        Fabric
+                                        Jacquard
+                                        Type
+                                        Anarkali
+                                        Stitching Type
+                                        Stitched
+                                        Pattern
+                                        Solid
+                                        Color
+                                        Orange
+                                        #NOW AVAILABLE IN RED-PINK-N BLUE COLORS # We brings for your South Indian
+                                        Festival special red and blue pattu gown style This megnetize Gown prettified
+                                        with beautiful weaving work which make this gown more elegant Fabric detail
+                                        -pure silk zari weaving Gown Dupatta- net with zari weaving border golden work
+                                        belt Pair it with fancy accessories to make your look more beautiful Size
+                                        (M-L-XL-XXL) (S and 3XL ALSO AVAILABLE ON BOOKINGS) (belt is not sem).
+                                    </p>
+                                </div>
+                                <div id="specification" class="container tab-pane fade">
+                                    <h4>Product specification</h4>
+                                    <ul>
+                                        At each stage of sample approval, buyer adds comments of the specification sheet (tech pack). All the comments on the sample and modifications on workmanship and material are incorporated in the next sample development and bulk production.
+                                    </ul>
+                                </div>
+                                <div id="reviews" class="container tab-pane fade">
+                                    <div class="reviews-submitted">
+                                        <div class="reviewer">Akshat Raj - <span>01 Jan 2020</span></div>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p>
+                                            Was a little nervous to order because company out of USA. But boy am I glad I did!.The clothing is true to size, fabrics are great and styles up to date and GREAT prices. Glad I took the chance, now I'm a happy returning customer. Don't get me wrong, we do have stores that caterer to the Fuller FIgure ladies in USA, but after seeing model Tess Munster, I wanted to know where she got her clothes from. And it was YOURS.
+                                        </p>
+                                    </div>
+                                    <div class="reviews-submit">
+                                        <h4>Give your Review:</h4>
+                                        <div class="ratting">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="row form">
+                                            <div class="col-sm-6">
+                                                <input type="text" placeholder="Name">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <textarea placeholder="Review"></textarea>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <button>Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="section-header">
+                            <h1>Related Products</h1>
+                        </div>
+
+                        <div class="row align-items-center product-slider product-slider-3">
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a href="#">Long Skirt</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/product-10.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>Rs</span>299</h3>
+                                        <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a href="#">Bangel's</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNzcep5H0XTEM99iePyfKlGIaOlh7QJwHmA&usqp=CAU" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>Rs</span>99</h3>
+                                        <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a href="#">Footwears</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9djA_qaknVHQAEMUtFWDtP5lRYrZXn3_M6Q&usqp=CAU" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>Rs</span>299</h3>
+                                        <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a href="#">Braclets</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="data:image/jpeg;base64,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" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>Rs</span>99</h3>
+                                        <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a href="#">Long Top</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="product-detail.html">
+                                            <img src="img/product-2.jpg" alt="Product Image">
+                                        </a>
+                                        <div class="product-action">
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3><span>Rs</span>499</h3>
+                                        <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side Bar Start -->
+                <div class="col-lg-4 sidebar">
+                    <div class="sidebar-widget category">
+                        <h2 class="title">Category</h2>
+                        <nav class="navbar bg-light">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-female"></i>Fashion & Beauty</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-child"></i>Jwellery's</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-mobile-alt"></i>Crocery's
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-microchip"></i>Home Decoration
+                                        </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="sidebar-widget widget-slider">
+                        <div class="sidebar-slider normal-slider">
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Long Coat</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/product-7.jpg" alt="Product Image">
+                                    </a>
+                                    <div class="product-action">
+                                        <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa fa-heart"></i></a>
+                                        <a href="#"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <h3><span>Rs</span>599</h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Jute Bag's</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Umf29M7hMTsSQMdhJYUU9aJxgJ_6zUoyOw&usqp=CAU" alt="Product Image">
+                                    </a>
+                                    <div class="product-action">
+                                        <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa fa-heart"></i></a>
+                                        <a href="#"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <h3><span>Rs</span>299</h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-title">
+                                    <a href="#">Sweaters</a>
+                                    <div class="ratting">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="product-image">
+                                    <a href="product-detail.html">
+                                        <img src="img/product-9.jpg" alt="Product Image">
+                                    </a>
+                                    <div class="product-action">
+                                        <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                        <a href="#"><i class="fa fa-heart"></i></a>
+                                        <a href="#"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-price">
+                                    <h3><span>Rs</span>199</h3>
+                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget brands">
+                        <h2 class="title">Our Brands</h2>
+                        <ul>
+                            <li><a href="#">Ramte </a><span>(45)</span></li>
+                            <li><a href="#">Rama </a><span>(34)</span></li>
+                            <li><a href="#">Narci </a><span>(67)</span></li>
+                            <li><a href="#">Nayab</a><span>(74)</span></li>
+                            <li><a href="#">Fusion </a><span>(89)</span></li>
+                            <li><a href="#">Saperi</a><span>(28)</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-widget tag">
+                        <h2 class="title">Tags Cloud</h2>
+                        <a href="#">Tops</a>
+                        <a href="#">Jeans</a>
+                        <a href="#">Jackets</a>
+                        <a href="#">Footwears</a>
+                        <a href="#">Trousers</a>
+                        <a href="#">Shirt's</a>
+                        <a href="#">Plastic Accessories</a>
+                        <a href="#">Beauty Products</a>
+                        <a href="#">Leather Products</a>
+                        <a href="#">Night Dresses</a>
+                        <a href="#">Designer's</a>
+                        <a href="#">Brand's</a>
+                    </div>
+                </div>
+                <!-- Side Bar End -->
+            </div>
+        </div>
+    </div>
+    <!-- Product Detail End -->
+
+    <!-- Brand Start -->
+    <div class="brand">
+        <div class="container-fluid">
+            <div class="brand-slider">
+                <div class="brand-item"><img src="img/brand-1.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-2.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-3.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-4.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-5.png" alt=""></div>
+                <div class="brand-item"><img src="img/brand-6.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Get in Touch</h2>
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-marker"></i>Ancilla</p>
+                            <p><i class="fa fa-envelope"></i>ancilla@email.com</p>
+                            <p><i class="fa fa-phone"></i>+123-456-7890</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Follow Us</h2>
+                        <div class="contact-info">
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Company Info</h2>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>Purchase Info</h2>
+                        <ul>
+                            <li><a href="#">Pyament Policy</a></li>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row payment align-items-center">
+                <div class="col-md-6">
+                    <div class="payment-method">
+                        <h2>We Accept:</h2>
+                        <img src="img/payment-method.png" alt="Payment Method" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="payment-security">
+                        <h2>Secured By:</h2>
+                        <img src="img/godaddy.svg" alt="Payment Security" />
+                        <img src="img/norton.svg" alt="Payment Security" />
+                        <img src="img/ssl.svg" alt="Payment Security" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Footer Bottom Start -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>. All Rights Reserved</p>
+                    </div> -->
+
+                <div class="col-md-6 template-by">
+                    <p>Funded to <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
